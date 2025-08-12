@@ -3,18 +3,20 @@
 #baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: "UA-499478441"
+google_analytics: "G-QXBSWZF5TP"
 
 # UI configs
 title: "Ceramics by Brian Chew"
-subtitle: "See the world through my eyes!"
+subtitle: "See creations of ceramics through my eyes!"
 author: "Brian Chew"
 header:
  title: "Ceramics"
  subtitle: "by Brian Chew"
 footer:
- name: "Hey there, my name is Brian"
- bio: "I am a Ceramicsist."
+ name: "Hey there! Welcome to my ceramics journey"
+ bio: |
+    Casual ceramicist of 2 years.
+    Lately I’ve been loving the world of slip casting.
 #  github: ""
 # web_design: "AJ"
 # Configure which exif data to display
