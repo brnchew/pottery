@@ -87,31 +87,33 @@ layout: default
                     </ul>
                 </section>
                 <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
+                    &copy; {{ site.author }}.
+                    <!-- Design: {{ site.web_design }} -->
                 </p>
             </div>
             <div>
                 <section>
                     <h2>Get in touch</h2>
-                    <form method="post" action="https://script.google.com/macros/s/AKfycbxXCxHJFHD--Jm7yrrqdG8QMQP34jYtIPPB4zN8j9ikTAoVsyqfpOawCc1sJIcOAKzP/exec">
-                        <div class="field half first">
-                            <input type="text" name="name" id="name" placeholder="Name"/>
+                    <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycbygn8U3ZGB3z3WeXbWOXiP3zWLjQ4xU_7g_M4Tlj7SyOaLVEJ4dm51wFQ-tiyn0_X9u7w/exec">
+                        <div class="form-elements">
+                            <div class="field half first">
+                                <input type="text" name="name" id="name" placeholder="Name"/>
+                            </div>
+                            <div class="field half">
+                                <input type="text" name="email" id="email" placeholder="Email"/>
+                            </div>
+                            <div class="field">
+                                <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+                            </div>
+                            <ul class="actions">
+                                <li><input type="submit" value="Send" class="special"/></li>
+                                <li><input type="reset" value="Reset"/></li>
+                            </ul>
                         </div>
-                        <div class="field half">
-                            <input type="text" name="email" id="email" placeholder="Email"/>
+                        <div style="display:none" class="thankyou_message">
+                            <h2><em>Thanks</em> for contacting us! We will get back to you soon!</h2>
                         </div>
-                        <div class="field">
-                            <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send" class="special"/></li>
-                            <li><input type="reset" value="Reset"/></li>
-                        </ul>
                     </form>
-                    <div style="display:none" class="thankyou_message">
-                    <h2><em>Thanks</em> for contacting us! We will get back to you soon!
-                    </h2>
-                    </div>
                 </section>
             </div>
         </div>
