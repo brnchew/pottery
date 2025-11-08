@@ -1,12 +1,12 @@
 # Base configs
-# baseurl: "https://brnchew.github.io/pottery"
+baseurl: "https://felinara.ceramics.com"
 #baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "G-QXBSWZF5TP"
 
 # UI configs
-title: "Ceramics by Brian Chew"
+title: "Ceramics by Felinara Ceramics"
 subtitle: "See creations of ceramics through my eyes!"
 author: "Brian Chew"
 header:
@@ -17,6 +17,7 @@ footer:
  bio: |
     Casual ceramicist.
     Lately I’ve been loving the world of slip casting.
+    To craft handmade ceramics that celebrate cats and inspire compassion, while supporting cat rescue and adoption.
 #  github: ""
 # web_design: "AJ"
 # Configure which exif data to display
@@ -24,7 +25,7 @@ footer:
 # exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
 social_urls:
   # twitter: "https://www.twitter.com/ram__patra"
-  instagram: "https://www.instagram.com/brian.pottery"
+  instagram: "https://www.instagram.com/felinara.ceramics"
   # dribbble: "https://dribbble.com/rampatra"
   # linkedin: "https://in.linkedin.com/in/ram-patra"
   # github: "https://www.github.com/rampatra"
